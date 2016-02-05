@@ -12,7 +12,15 @@ I was unable to get a boot disk for Linux from the class, though I made my own. 
 
 1.  Regexone
 
-  * I only completed the first problem, (my solution to it: -?\d+[e,.]?\d+[e,.]?\d+$)
+  1. -?\d+[e,.]?\d+[e,.]?\d+$)
+  2. 1?\s?\(?(\d{3})\)?-?\s?\d{3}-?\s?\d{4}
+  3. ([\w\.]+)
+  4. <(a|div) (This is a solution specifically for this problem, but more general solutions exist.)
+  5. (\w+)\.(jpg|png|gif)$
+  6. \s*(.+)$
+  7. E/\(\s\d{4}\):\s{3}at\swidget\.List\.(\w+)\((\w+\.java):(\d+)\)
+
+![Regex](lab1regex.png)
 
 2.  RegexCrossword
 
