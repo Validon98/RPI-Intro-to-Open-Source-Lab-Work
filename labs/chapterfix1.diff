@@ -1,0 +1,13 @@
+Index: chapter.xml
+===================================================================
+--- chapter.xml	(revision 48255)
++++ chapter.xml	(working copy)
+@@ -248,7 +248,7 @@
+ 	kernel.  The next section lists some common problems and their
+ 	solutions.</para>
+ 
+-      <para>If all goes well, the sound card should now work in os;.
++      <para>If all goes well, the sound card should now work in &os;.
+ 	If the <acronym>CD</acronym> or <acronym>DVD</acronym> drive
+ 	is properly connected to the sound card, one can insert an
+ 	audio <acronym>CD</acronym> in the drive and play it with

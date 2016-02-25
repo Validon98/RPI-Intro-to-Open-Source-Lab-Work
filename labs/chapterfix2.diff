@@ -1,0 +1,17 @@
+Index: chapter.xml
+===================================================================
+--- chapter.xml	(revision 48255)
++++ chapter.xml	(working copy)
+@@ -915,9 +915,10 @@
+ 	  the module with <command>kldload</command>.</para>
+       </note>
+ 
+-      <para>Occasionally, <errorname>Device not configured</errorname>
++      <para>Occasionally, the following error
+ 	will be displayed when trying to mount a data
+-	<acronym>CD</acronym>.  This usually means that the
++	<acronym>CD</acronym>. <screen><errorname>Device not configured</errorname></screen>
++	This usually means that the
+ 	<acronym>CD</acronym> drive thinks that there is no disk in
+ 	the tray, or that the drive is not visible on the bus.  It
+ 	can take a couple of seconds for a <acronym>CD</acronym>
